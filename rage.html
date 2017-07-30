@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>freeCodeCamp: Build A Tribute Page Challenge</title>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://use.fontawesome.com/5682a28e2d.js"></script>
+		<script type="text/javascript">
+			
+		// jshint esversion: 6
+		onload = ( function() {
+			var cName = document.getElementById("arrow").className;
+			var arrow = document.getElementById("arrow");
+			var topMenu = document.getElementById('menu');
+			var toggleMenu = document.getElementById("nav");
+			var about = document.getElementById("about");
+			topMenu.addEventListener('click', function() {
+				var clicked = true;
+				if( toggleMenu.className === 'top-nav' ) {
+				about.className = "hover-in";
+				arrow.className = "fa fa-times hover-me";
+				toggleMenu.className = 'show'; return;
+				
+			}   about.className = "";
+				arrow.className = cName;
+				return toggleMenu.className = 'top-nav';
+			});
+
+
+		});
+
+
+
+		</script>
+	</head>
+	<body>	
+		
+			  	<div class="header">
+					<div id="menu" class="menu-trigger">
+						<i id="arrow" class="fa fa-bars" aria-hidden="true"></i>
+					</div>
+					<div id="nav" class="top-nav">
+						<ul>
+							<li><a href="https://en.wikipedia.org/wiki/Rage_Against_the_Machine" target="_blank" id="about">History</a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="spacer">&nbsp;</div>
+				<div class="container">
+					<div class="row placeholder white-bg">
+						<div class="mini-spacer"></div>
+						<div class="title-top"><h2>Band Members</h2></div>
+						<div class="mini-spacer"></div>
+						<div class="col-md-12 thumb">
+						<div class="placeholder">
+							<img src="tom.jpg" width="200" height="200" class="img-responsive img-circle" alt="Generic placeholder thumbnail">
+							<h4>Tom Morello</h4>
+							<span class="text-muted">Guitar</span>
+						</div>
+						<div class="placeholder">
+							
+							<img src="zack.jpg" width="200" height="200" class="img-responsive img-circle" alt="Generic placeholder thumbnail">
+							<h4>Zack De La Rocha</h4>
+							<span class="text-muted">Vocals</span>
+
+						</div>
+						<div class="placeholder">
+							
+							<img src="tim.jpg" width="200" height="200" class="img-responsive img-circle" alt="Generic placeholder thumbnail">
+							<h4>Tim Commerford</h4>
+							<span class="text-muted">Bass</span>
+						</div>
+						<div class="placeholder">
+							
+							<img src="brad.jpg" width="200" height="200" class="img-responsive img-circle" alt="Generic placeholder thumbnail">
+							<h4>Brad Wilk</h4> 
+							<span class="text-muted">Drums</span>
+
+						</div>
+						</div>
+						
+					</div>
+
+				</div>
+
+				<div class="container marketing">
+				<div class="mini-spacer"></div>
+					<div class="mini-spacer">&nbsp;</div>
+					<div class="row featurette">
+						<div class="col-md-5">
+          					<img class="featurette-image img-responsive center-block" src="r.jpg" alt="Generic placeholder image">
+          					<h2 class="mar-left">Latest News</h2>
+          					<div class="mini-spacer"></div>
+          					<dl>
+          						<dt>HEAR 'GENERATION FUCKED' FROM TIM COMMERFORD's NEW BAND WAKRAT</dt>
+          						<dd>
+          						Tim Commerford’s band Wakrat has released a new single, "Generation Fucked." Listen to the premiere here: <a target="_blank" href="http://www.nme.com/news/nme/93961">LINK</a> <i class="fa fa-link" aria-hidden="true"></i> and see more from the band at Wakratband.com.</dd>
+          						<dt>NEW RAGE AGAINST THE MACHINE MERCHANDISE</dt>
+          						<dd>New Rage Against The Machine Merchandise now available at the Official Online Store: <a target="_blank" href="http://rageagainstthemachine.probitymerch.com/">LINK</a> <i class="fa fa-link" aria-hidden="true"></i></dd>
+          						<dt>TIM COMMERFORD DEBUTS NEW TRIO WAKRAT &amp; MUSIC VIDEO - ROLLING STONE</dt>
+          						<dd>For more than a year, Rage Against the Machine bassist Tim Commerford had been biking around with his future bandmate and didn't know it. The avid mountain-biking enthusiast was introduced to drummer and restaurant owner Mathias Wakrat through Rage. </dd>
+          						<dt>Visit: Rage Against The Machine Official Website</dt>
+          						<dd><a target="_blank" href="http://www.ratm.com/">http://www.ratm.com/</a></dd>
+
+          					</dl>
+
+        				</div>
+						<div class="col-md-7">
+          					<h2 class="featurette-heading">Rage Against The Machine<br><span class="text-muted"><small class="lead">The band that rock's the 90's</small></span></h2>
+					          <p>Rage Against the Machine (also known as RATM or simply Rage) is an American rock band from Los Angeles, California. Formed in 1991, the group consists of rapper and vocalist Zack de la Rocha, bassist and backing vocalist Tim Commerford, guitarist Tom Morello, and drummer Brad Wilk. They draw inspiration from early heavy metal instrumentation, as well as hip hop acts such as Afrika Bambaataa, Public Enemy, the Beastie Boys, and Dutch crossover band Urban Dance Squad. Rage Against the Machine is well known for the members' revolutionary political views, which are expressed in many of the band's songs. As of 2010, they had sold over 16 million records worldwide.</p>
+					          <hr>
+					          <p>In 1992, the band released its self-titled debut album, which became a commercial and critical success, leading to a slot in the 1993 Lollapalooza festival. In 2003, the album was ranked number 368 on Rolling Stone's list of the 500 greatest albums of all time. The band did not release a follow-up record until 1996, with Evil Empire. The band's third album, The Battle of Los Angeles, followed in 1999, and in 2003, the album was ranked number 426 on the same list. During their initial nine-year run, they became one of the most popular and influential bands in music history, according to music journalist Colin Devenish. They were also ranked No. 33 on VH1's 100 Greatest Artists of Hard Rock. The band had a large influence on the nu metal genre which came to prominence during the second half of the 1990s.</p>
+					          <p class="text-right margin-right"><a class="btn btn-default" href="https://en.wikipedia.org/wiki/Rage_Against_the_Machine" target="_blank" role="button">Read more &raquo;</a></p>
+					          <div class="mini-spacer"></div>
+					          <h2>TOP 10 Songs</h2>
+
+					          <div class="table-responsive">
+					   			<table class="table table-striped">
+					   				<thead>
+					   					<tr>
+							   				<th>#</th>
+							   				<th>Title</th>
+							   				<th>Year</th>
+						   				</tr>
+					   				</thead>
+					   				<tbody>
+					   					<tr>
+					   						<td>1</td>
+					   						<td>Freedom</td>
+					   						<td>1992</td>
+					   					</tr>
+					   					<tr>
+					   						<td>2</td>
+					   						<td>Bulls On Parade</td>
+					   						<td>1996</td>
+					   					</tr>
+					   					<tr>
+					   						<td>3</td>
+					   						<td>Wake Up</td>
+					   						<td>1992</td>
+					   					</tr>
+					   					<tr>
+					   						<td>4</td>
+					   						<td>Bullet In The Head</td>
+					   						<td>1992</td>
+					   					</tr>
+					   					<tr>
+					   						<td>5</td>
+					   						<td>Testify</td>
+					   						<td>1999</td>
+					   					</tr>
+					   					<tr>
+					   						<td>6</td>
+					   						<td>Revolver</td>
+					   						<td>1996</td>
+					   					</tr>
+					   					<tr>
+					   						<td>7</td>
+					   						<td>Born Of A Broken Man</td>
+					   						<td>1999</td>
+					   					</tr>
+					   					<tr>
+					   						<td>8</td>
+					   						<td>Down Rodeo</td>
+					   						<td>1996</td>
+					   					</tr>
+					   					<tr>
+					   						<td>9</td>
+					   						<td>Calm Like A Bomb</td>
+					   						<td>1999</td>
+					   					</tr>
+					   					<tr>
+					   						<td>10</td>
+					   						<td>Killing In The Name</td>
+					   						<td>1992</td>
+					   					</tr>
+					   				</tbody>
+					   			</table>
+					  		 </div>
+					   </div>
+
+					</div>
+					<div class="mini-spacer">&nbsp;</div>
+					<div class="footer"><span><i class="fa fa-copyright" aria-hidden="true"></i> 2017 &middot; Keith Santiago &middot; Dev Studio, Inc. </span></div>
+					<div class="mini-spacer">&nbsp;</div>
+				</div>
+				<div class="spacer"></div>
+
+		
+
+				<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>	
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>

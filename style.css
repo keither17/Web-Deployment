@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Open+Sans+Condensed:300');
+
+body {
+				background-color: #f4d742;
+				margin: 0 auto;
+				font-family: 'Oswald', sans-serif;	
+	}
+			.spacer {
+				background-color: transparent;
+				height: 50px;
+				z-index: -1;
+			}
+			.mar-left {
+				margin-left: 15px;
+			}
+			dt {
+				margin-bottom: 6px;
+				margin-top: 15px;
+				color: #444;
+				font-size: 17px;
+			}
+			dd {
+				color: #555;
+				font-size: 16px;
+			}
+			dl {
+				padding-left: 20px;
+				padding-right: 70px;
+			}
+			.white-bg {
+				background-color: #f2f2f2;
+			}
+			.title-top {
+				padding-left: 50px;
+			}
+			.thumb { 
+				display: flex;
+				width: 100% auto;
+				text-align: center;
+				flex-direction: row;
+			}
+			.thumb div {
+				text-align: center;
+				width: 25%;
+			}
+			.thumb div img {
+				display: inline-block;
+				margin: 0 auto;
+				padding: 0;
+				border: 2px solid #333;
+			}
+			.mini-spacer {
+				height: 20px;
+			}
+			.marketing {
+
+				background-color: #f2f2f2;
+			}
+			.header {
+				height: 50px;
+				width: 100%;
+				background-color: transparent;
+				position: fixed;
+				top: 0;
+				right: 0;	
+				z-index: 10000;			
+			}
+			.header ul { 
+			margin: 0 auto;
+			padding: 0;
+			list-style: none;
+			line-height: 50px;
+			position: relative;
+ 			}
+ 			.header ul li {
+ 				font-size: 1.2em;
+ 				font-family: 'Oswald', sans-serif;
+ 				position: relative;
+ 				display: inline-block;
+ 				margin: 0 0 0 30px;
+ 				color: #000;
+ 				padding: 0;
+ 				text-transform: uppercase;
+ 				
+
+ 			}
+ 			.margin-right {
+ 				margin-right: 30px;
+ 			}
+
+ 			.header ul li a {
+ 				color: transparent;
+ 				text-decoration: none;
+				
+ 			}
+ 			.header ul li a.hover-in {
+ 				color: #000;
+ 				text-decoration: none;
+ 				transition: color 0.5s ease;
+ 			}
+ 			.header ul li a.hover-in:hover {
+ 				color: #ccc;
+ 			}
+			.menu-trigger {
+				height: 40px;
+				width: 40px;
+				background-color: transparent;
+				border-radius: 50%;
+				position: fixed;
+				top: 5px;
+				right: 20px;
+				line-height: 40px;
+				z-index: 100;
+				text-align: center;
+				font-size: 25px;
+				
+
+			}
+			.menu-trigger:hover {
+				cursor: pointer;
+			}
+			
+			.menu-trigger i {
+				
+				color: #000;
+				transition: color 0.5s ease-in;
+			}
+			.header i.hover-me {
+				color: #ddd;
+				transition: color 0.3s ease-out;	
+			}
+			.show {
+			transition: 0.5s ease; 
+			height: 50px;
+			width: 100vw;
+			background-color: #fff;
+			overflow: initial;
+			
+			}
+			.top-nav {
+			transition: 0.5s ease;
+			height: 0px;
+			overflow: hidden;
+			}
+			.footer {
+				background-color: transparent;
+				line-height: 40px;
+				font-size: 10pt;
+				padding-left: 30px;
+				
+			}
+
+
+
+
+
